@@ -50,38 +50,50 @@ export function LateGoalsBrowser({ lateGoals, year }: Props) {
         </div>
       </div>
 
-      <div className="table-scroll">
-        <table className="goal-table">
-          <thead>
-            <tr>
-              <th>Minute</th>
-              <th>Player</th>
-              <th>Team</th>
-              <th>Match</th>
-              <th>Stage</th>
-            </tr>
-          </thead>
-          <tbody>
-            {pageItems.map((g, i) => (
-              <tr key={`${g.match}-${g.player}-${g.minuteLabel}-${from + i}`}>
-                <td className="minute">
-                  {g.minuteLabel}
-                  {g.isPenalty ? ' (P)' : ''}
-                  {g.isOwnGoal ? ' (OG)' : ''}
-                </td>
-                <td>{g.player}</td>
-                <td>
-                  <span className="team-cell">
-                    <CountryFlag team={g.team} />
-                    <span className="team-cell-name">{g.team}</span>
-                  </span>
-                </td>
-                <td>{g.match}</td>
-                <td>{g.stage}</td>
+      <p className="table-scroll-hint" aria-hidden="true">
+        <span>Swipe sideways for match &amp; stage</span>
+        <span className="table-scroll-hint-arrow">→</span>
+      </p>
+
+      <div className="table-scroll-wrap">
+        <div
+          className="table-scroll"
+          tabIndex={0}
+          role="region"
+          aria-label="Late goals table, scroll horizontally for more columns"
+        >
+          <table className="goal-table">
+            <thead>
+              <tr>
+                <th>Minute</th>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Match</th>
+                <th>Stage</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {pageItems.map((g, i) => (
+                <tr key={`${g.match}-${g.player}-${g.minuteLabel}-${from + i}`}>
+                  <td className="minute">
+                    {g.minuteLabel}
+                    {g.isPenalty ? ' (P)' : ''}
+                    {g.isOwnGoal ? ' (OG)' : ''}
+                  </td>
+                  <td>{g.player}</td>
+                  <td>
+                    <span className="team-cell">
+                      <CountryFlag team={g.team} />
+                      <span className="team-cell-name">{g.team}</span>
+                    </span>
+                  </td>
+                  <td>{g.match}</td>
+                  <td>{g.stage}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div className="pager">

@@ -74,14 +74,23 @@ export default function App() {
             stoppage time. The 30 minutes of extra time are not counted as late goals.
           </p>
           <label className="year-picker">
-            <span>Tournament</span>
-            <select value={year} onChange={(e) => setYear(Number(e.target.value))}>
-              {[...stats.years].reverse().map((y) => (
-                <option key={y} value={y}>
-                  {y} · {tournamentByYear(stats, y)?.host}
-                </option>
-              ))}
-            </select>
+            <span className="year-picker-label">Tap to switch tournament</span>
+            <span className="year-picker-control">
+              <select
+                value={year}
+                onChange={(e) => setYear(Number(e.target.value))}
+                aria-label="Select World Cup tournament"
+              >
+                {[...stats.years].reverse().map((y) => (
+                  <option key={y} value={y}>
+                    {y} · {tournamentByYear(stats, y)?.host}
+                  </option>
+                ))}
+              </select>
+              <span className="year-picker-chevron" aria-hidden>
+                ▾
+              </span>
+            </span>
           </label>
         </div>
       </header>
