@@ -1,0 +1,1377 @@
+{
+  "generatedAt": "2026-07-16T03:44:31.008Z",
+  "years": [
+    1998,
+    2002,
+    2006,
+    2010,
+    2014,
+    2018,
+    2022,
+    2026
+  ],
+  "lateGoalDefinition": "Goals scored at minute 75 or later in regulation (including 90+ stoppage). Extra-time goals are tracked separately.",
+  "tournaments": [
+    {
+      "year": 1998,
+      "host": "France",
+      "matchCount": 64,
+      "totalGoals": 171,
+      "lateGoals": 47,
+      "extraTimeGoals": 1,
+      "lateGoalPct": 27.5,
+      "goalsPerMatch": 2.67,
+      "lateGoalsPerMatch": 0.73,
+      "buckets": {
+        "1-15": 24,
+        "16-30": 20,
+        "31-45+": 26,
+        "46-60": 31,
+        "61-74": 22,
+        "75+": 47,
+        "ET": 1
+      },
+      "topScorers": [
+        {
+          "player": "Davor Šuker",
+          "goals": 6,
+          "team": "Croatia"
+        },
+        {
+          "player": "Christian Vieri",
+          "goals": 5,
+          "team": "Italy"
+        },
+        {
+          "player": "Gabriel Batistuta",
+          "goals": 5,
+          "team": "Argentina"
+        },
+        {
+          "player": "Luis Hernández",
+          "goals": 4,
+          "team": "Mexico"
+        },
+        {
+          "player": "Marcelo Salas",
+          "goals": 4,
+          "team": "Chile"
+        },
+        {
+          "player": "not applicable Ronaldo",
+          "goals": 4,
+          "team": "Brazil"
+        },
+        {
+          "player": "César Sampaio",
+          "goals": 3,
+          "team": "Brazil"
+        },
+        {
+          "player": "Dennis Bergkamp",
+          "goals": 3,
+          "team": "Netherlands"
+        },
+        {
+          "player": "Jürgen Klinsmann",
+          "goals": 3,
+          "team": "Germany"
+        },
+        {
+          "player": "not applicable Bebeto",
+          "goals": 3,
+          "team": "Brazil"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "France",
+          "lateGoals": 5
+        },
+        {
+          "team": "Netherlands",
+          "lateGoals": 5
+        },
+        {
+          "team": "Italy",
+          "lateGoals": 4
+        },
+        {
+          "team": "Mexico",
+          "lateGoals": 4
+        },
+        {
+          "team": "Austria",
+          "lateGoals": 3
+        },
+        {
+          "team": "Croatia",
+          "lateGoals": 3
+        },
+        {
+          "team": "Spain",
+          "lateGoals": 3
+        },
+        {
+          "team": "Argentina",
+          "lateGoals": 2
+        },
+        {
+          "team": "England",
+          "lateGoals": 2
+        },
+        {
+          "team": "Germany",
+          "lateGoals": 2
+        }
+      ]
+    },
+    {
+      "year": 2002,
+      "host": "Korea / Japan",
+      "matchCount": 64,
+      "totalGoals": 161,
+      "lateGoals": 34,
+      "extraTimeGoals": 3,
+      "lateGoalPct": 21.1,
+      "goalsPerMatch": 2.52,
+      "lateGoalsPerMatch": 0.53,
+      "buckets": {
+        "1-15": 25,
+        "16-30": 19,
+        "31-45+": 25,
+        "46-60": 28,
+        "61-74": 27,
+        "75+": 34,
+        "ET": 3
+      },
+      "topScorers": [
+        {
+          "player": "not applicable Ronaldo",
+          "goals": 8,
+          "team": "Brazil"
+        },
+        {
+          "player": "Miroslav Klose",
+          "goals": 5,
+          "team": "Germany"
+        },
+        {
+          "player": "not applicable Rivaldo",
+          "goals": 5,
+          "team": "Brazil"
+        },
+        {
+          "player": "Christian Vieri",
+          "goals": 4,
+          "team": "Italy"
+        },
+        {
+          "player": "Jon Dahl Tomasson",
+          "goals": 4,
+          "team": "Denmark"
+        },
+        {
+          "player": "Fernando Morientes",
+          "goals": 3,
+          "team": "Spain"
+        },
+        {
+          "player": "Henrik Larsson",
+          "goals": 3,
+          "team": "Sweden"
+        },
+        {
+          "player": "İlhan Mansız",
+          "goals": 3,
+          "team": "Turkey"
+        },
+        {
+          "player": "Marc Wilmots",
+          "goals": 3,
+          "team": "Belgium"
+        },
+        {
+          "player": "Michael Ballack",
+          "goals": 3,
+          "team": "Germany"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "Germany",
+          "lateGoals": 5
+        },
+        {
+          "team": "Belgium",
+          "lateGoals": 3
+        },
+        {
+          "team": "Brazil",
+          "lateGoals": 3
+        },
+        {
+          "team": "Republic of Ireland",
+          "lateGoals": 3
+        },
+        {
+          "team": "South Korea",
+          "lateGoals": 3
+        },
+        {
+          "team": "Portugal",
+          "lateGoals": 2
+        },
+        {
+          "team": "Spain",
+          "lateGoals": 2
+        },
+        {
+          "team": "Argentina",
+          "lateGoals": 1
+        },
+        {
+          "team": "Costa Rica",
+          "lateGoals": 1
+        },
+        {
+          "team": "Croatia",
+          "lateGoals": 1
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "host": "Germany",
+      "matchCount": 64,
+      "totalGoals": 147,
+      "lateGoals": 45,
+      "extraTimeGoals": 3,
+      "lateGoalPct": 30.6,
+      "goalsPerMatch": 2.3,
+      "lateGoalsPerMatch": 0.7,
+      "buckets": {
+        "1-15": 23,
+        "16-30": 24,
+        "31-45+": 23,
+        "46-60": 19,
+        "61-74": 10,
+        "75+": 45,
+        "ET": 3
+      },
+      "topScorers": [
+        {
+          "player": "Miroslav Klose",
+          "goals": 5,
+          "team": "Germany"
+        },
+        {
+          "player": "David Villa",
+          "goals": 3,
+          "team": "Spain"
+        },
+        {
+          "player": "Fernando Torres",
+          "goals": 3,
+          "team": "Spain"
+        },
+        {
+          "player": "Hernán Crespo",
+          "goals": 3,
+          "team": "Argentina"
+        },
+        {
+          "player": "Lukas Podolski",
+          "goals": 3,
+          "team": "Germany"
+        },
+        {
+          "player": "Maxi Rodríguez",
+          "goals": 3,
+          "team": "Argentina"
+        },
+        {
+          "player": "not applicable Ronaldo",
+          "goals": 3,
+          "team": "Brazil"
+        },
+        {
+          "player": "Thierry Henry",
+          "goals": 3,
+          "team": "France"
+        },
+        {
+          "player": "Zinedine Zidane",
+          "goals": 3,
+          "team": "France"
+        },
+        {
+          "player": "Agustín Delgado",
+          "goals": 2,
+          "team": "Ecuador"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "Australia",
+          "lateGoals": 4
+        },
+        {
+          "team": "Germany",
+          "lateGoals": 4
+        },
+        {
+          "team": "Argentina",
+          "lateGoals": 3
+        },
+        {
+          "team": "Brazil",
+          "lateGoals": 3
+        },
+        {
+          "team": "England",
+          "lateGoals": 3
+        },
+        {
+          "team": "Italy",
+          "lateGoals": 3
+        },
+        {
+          "team": "Spain",
+          "lateGoals": 3
+        },
+        {
+          "team": "Ecuador",
+          "lateGoals": 2
+        },
+        {
+          "team": "France",
+          "lateGoals": 2
+        },
+        {
+          "team": "Ivory Coast",
+          "lateGoals": 2
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "host": "South Africa",
+      "matchCount": 64,
+      "totalGoals": 145,
+      "lateGoals": 36,
+      "extraTimeGoals": 2,
+      "lateGoalPct": 24.8,
+      "goalsPerMatch": 2.27,
+      "lateGoalsPerMatch": 0.56,
+      "buckets": {
+        "1-15": 14,
+        "16-30": 23,
+        "31-45+": 22,
+        "46-60": 22,
+        "61-74": 26,
+        "75+": 36,
+        "ET": 2
+      },
+      "topScorers": [
+        {
+          "player": "David Villa",
+          "goals": 5,
+          "team": "Spain"
+        },
+        {
+          "player": "Diego Forlán",
+          "goals": 5,
+          "team": "Uruguay"
+        },
+        {
+          "player": "Thomas Müller",
+          "goals": 5,
+          "team": "Germany"
+        },
+        {
+          "player": "Wesley Sneijder",
+          "goals": 5,
+          "team": "Netherlands"
+        },
+        {
+          "player": "Gonzalo Higuaín",
+          "goals": 4,
+          "team": "Argentina"
+        },
+        {
+          "player": "Miroslav Klose",
+          "goals": 4,
+          "team": "Germany"
+        },
+        {
+          "player": "Róbert Vittek",
+          "goals": 4,
+          "team": "Slovakia"
+        },
+        {
+          "player": "Asamoah Gyan",
+          "goals": 3,
+          "team": "Ghana"
+        },
+        {
+          "player": "Landon Donovan",
+          "goals": 3,
+          "team": "United States"
+        },
+        {
+          "player": "Luís Fabiano",
+          "goals": 3,
+          "team": "Brazil"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "Argentina",
+          "lateGoals": 4
+        },
+        {
+          "team": "Uruguay",
+          "lateGoals": 4
+        },
+        {
+          "team": "Netherlands",
+          "lateGoals": 3
+        },
+        {
+          "team": "Portugal",
+          "lateGoals": 3
+        },
+        {
+          "team": "Germany",
+          "lateGoals": 2
+        },
+        {
+          "team": "Italy",
+          "lateGoals": 2
+        },
+        {
+          "team": "Ivory Coast",
+          "lateGoals": 2
+        },
+        {
+          "team": "Mexico",
+          "lateGoals": 2
+        },
+        {
+          "team": "Slovakia",
+          "lateGoals": 2
+        },
+        {
+          "team": "United States",
+          "lateGoals": 2
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "host": "Brazil",
+      "matchCount": 64,
+      "totalGoals": 171,
+      "lateGoals": 43,
+      "extraTimeGoals": 8,
+      "lateGoalPct": 25.1,
+      "goalsPerMatch": 2.67,
+      "lateGoalsPerMatch": 0.67,
+      "buckets": {
+        "1-15": 18,
+        "16-30": 25,
+        "31-45+": 22,
+        "46-60": 24,
+        "61-74": 31,
+        "75+": 43,
+        "ET": 8
+      },
+      "topScorers": [
+        {
+          "player": "James Rodríguez",
+          "goals": 6,
+          "team": "Colombia"
+        },
+        {
+          "player": "Thomas Müller",
+          "goals": 5,
+          "team": "Germany"
+        },
+        {
+          "player": "Lionel Messi",
+          "goals": 4,
+          "team": "Argentina"
+        },
+        {
+          "player": "not applicable Neymar",
+          "goals": 4,
+          "team": "Brazil"
+        },
+        {
+          "player": "Robin van Persie",
+          "goals": 4,
+          "team": "Netherlands"
+        },
+        {
+          "player": "André Schürrle",
+          "goals": 3,
+          "team": "Germany"
+        },
+        {
+          "player": "Arjen Robben",
+          "goals": 3,
+          "team": "Netherlands"
+        },
+        {
+          "player": "Enner Valencia",
+          "goals": 3,
+          "team": "Ecuador"
+        },
+        {
+          "player": "Karim Benzema",
+          "goals": 3,
+          "team": "France"
+        },
+        {
+          "player": "Xherdan Shaqiri",
+          "goals": 3,
+          "team": "Switzerland"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "Netherlands",
+          "lateGoals": 6
+        },
+        {
+          "team": "Colombia",
+          "lateGoals": 4
+        },
+        {
+          "team": "Belgium",
+          "lateGoals": 3
+        },
+        {
+          "team": "Brazil",
+          "lateGoals": 3
+        },
+        {
+          "team": "Switzerland",
+          "lateGoals": 3
+        },
+        {
+          "team": "Bosnia and Herzegovina",
+          "lateGoals": 2
+        },
+        {
+          "team": "France",
+          "lateGoals": 2
+        },
+        {
+          "team": "Germany",
+          "lateGoals": 2
+        },
+        {
+          "team": "Greece",
+          "lateGoals": 2
+        },
+        {
+          "team": "Mexico",
+          "lateGoals": 2
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "host": "Russia",
+      "matchCount": 64,
+      "totalGoals": 169,
+      "lateGoals": 40,
+      "extraTimeGoals": 3,
+      "lateGoalPct": 23.7,
+      "goalsPerMatch": 2.64,
+      "lateGoalsPerMatch": 0.63,
+      "buckets": {
+        "1-15": 21,
+        "16-30": 16,
+        "31-45+": 28,
+        "46-60": 34,
+        "61-74": 27,
+        "75+": 40,
+        "ET": 3
+      },
+      "topScorers": [
+        {
+          "player": "Harry Kane",
+          "goals": 6,
+          "team": "England"
+        },
+        {
+          "player": "Antoine Griezmann",
+          "goals": 4,
+          "team": "France"
+        },
+        {
+          "player": "Cristiano Ronaldo",
+          "goals": 4,
+          "team": "Portugal"
+        },
+        {
+          "player": "Denis Cheryshev",
+          "goals": 4,
+          "team": "Russia"
+        },
+        {
+          "player": "Kylian Mbappé",
+          "goals": 4,
+          "team": "France"
+        },
+        {
+          "player": "Romelu Lukaku",
+          "goals": 4,
+          "team": "Belgium"
+        },
+        {
+          "player": "Artem Dzyuba",
+          "goals": 3,
+          "team": "Russia"
+        },
+        {
+          "player": "Diego Costa",
+          "goals": 3,
+          "team": "Spain"
+        },
+        {
+          "player": "Eden Hazard",
+          "goals": 3,
+          "team": "Belgium"
+        },
+        {
+          "player": "Edinson Cavani",
+          "goals": 3,
+          "team": "Uruguay"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "Belgium",
+          "lateGoals": 4
+        },
+        {
+          "team": "Brazil",
+          "lateGoals": 4
+        },
+        {
+          "team": "Croatia",
+          "lateGoals": 3
+        },
+        {
+          "team": "South Korea",
+          "lateGoals": 3
+        },
+        {
+          "team": "Argentina",
+          "lateGoals": 2
+        },
+        {
+          "team": "Colombia",
+          "lateGoals": 2
+        },
+        {
+          "team": "Iran",
+          "lateGoals": 2
+        },
+        {
+          "team": "Russia",
+          "lateGoals": 2
+        },
+        {
+          "team": "Switzerland",
+          "lateGoals": 2
+        },
+        {
+          "team": "Uruguay",
+          "lateGoals": 2
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "host": "Qatar",
+      "matchCount": 64,
+      "totalGoals": 172,
+      "lateGoals": 43,
+      "extraTimeGoals": 4,
+      "lateGoalPct": 25,
+      "goalsPerMatch": 2.69,
+      "lateGoalsPerMatch": 0.67,
+      "buckets": {
+        "1-15": 15,
+        "16-30": 16,
+        "31-45+": 36,
+        "46-60": 28,
+        "61-74": 30,
+        "75+": 43,
+        "ET": 4
+      },
+      "topScorers": [
+        {
+          "player": "Kylian Mbappé",
+          "goals": 8,
+          "team": "France"
+        },
+        {
+          "player": "Lionel Messi",
+          "goals": 7,
+          "team": "Argentina"
+        },
+        {
+          "player": "Julián Álvarez",
+          "goals": 4,
+          "team": "Argentina"
+        },
+        {
+          "player": "Olivier Giroud",
+          "goals": 4,
+          "team": "France"
+        },
+        {
+          "player": "Álvaro Morata",
+          "goals": 3,
+          "team": "Spain"
+        },
+        {
+          "player": "Bukayo Saka",
+          "goals": 3,
+          "team": "England"
+        },
+        {
+          "player": "Cody Gakpo",
+          "goals": 3,
+          "team": "Netherlands"
+        },
+        {
+          "player": "Enner Valencia",
+          "goals": 3,
+          "team": "Ecuador"
+        },
+        {
+          "player": "Gonçalo Ramos",
+          "goals": 3,
+          "team": "Portugal"
+        },
+        {
+          "player": "Marcus Rashford",
+          "goals": 3,
+          "team": "England"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "France",
+          "lateGoals": 6
+        },
+        {
+          "team": "Netherlands",
+          "lateGoals": 5
+        },
+        {
+          "team": "Portugal",
+          "lateGoals": 4
+        },
+        {
+          "team": "Germany",
+          "lateGoals": 3
+        },
+        {
+          "team": "Iran",
+          "lateGoals": 3
+        },
+        {
+          "team": "Japan",
+          "lateGoals": 2
+        },
+        {
+          "team": "Poland",
+          "lateGoals": 2
+        },
+        {
+          "team": "South Korea",
+          "lateGoals": 2
+        },
+        {
+          "team": "Spain",
+          "lateGoals": 2
+        },
+        {
+          "team": "Argentina",
+          "lateGoals": 1
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "host": "USA / Canada / Mexico",
+      "matchCount": 102,
+      "totalGoals": 297,
+      "lateGoals": 81,
+      "extraTimeGoals": 7,
+      "lateGoalPct": 27.3,
+      "goalsPerMatch": 2.91,
+      "lateGoalsPerMatch": 0.79,
+      "buckets": {
+        "1-15": 38,
+        "16-30": 31,
+        "31-45+": 53,
+        "46-60": 49,
+        "61-74": 38,
+        "75+": 81,
+        "ET": 7
+      },
+      "topScorers": [
+        {
+          "player": "Kylian Mbappé",
+          "goals": 8,
+          "team": "France"
+        },
+        {
+          "player": "Lionel Messi",
+          "goals": 8,
+          "team": "Argentina"
+        },
+        {
+          "player": "Erling Haaland",
+          "goals": 7,
+          "team": "Norway"
+        },
+        {
+          "player": "Harry Kane",
+          "goals": 6,
+          "team": "England"
+        },
+        {
+          "player": "Jude Bellingham",
+          "goals": 6,
+          "team": "England"
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "goals": 5,
+          "team": "Spain"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "goals": 5,
+          "team": "France"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "goals": 4,
+          "team": "Senegal"
+        },
+        {
+          "player": "Julián Quiñones",
+          "goals": 4,
+          "team": "Mexico"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "goals": 4,
+          "team": "Brazil"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "Argentina",
+          "lateGoals": 8
+        },
+        {
+          "team": "Belgium",
+          "lateGoals": 5
+        },
+        {
+          "team": "Canada",
+          "lateGoals": 5
+        },
+        {
+          "team": "Morocco",
+          "lateGoals": 5
+        },
+        {
+          "team": "Norway",
+          "lateGoals": 5
+        },
+        {
+          "team": "Austria",
+          "lateGoals": 3
+        },
+        {
+          "team": "England",
+          "lateGoals": 3
+        },
+        {
+          "team": "France",
+          "lateGoals": 3
+        },
+        {
+          "team": "Germany",
+          "lateGoals": 3
+        },
+        {
+          "team": "Senegal",
+          "lateGoals": 3
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "historicAvgLateGoalPct": 25.4,
+    "historicAvgLateGoalsPerMatch": 0.64,
+    "year2026": {
+      "year": 2026,
+      "host": "USA / Canada / Mexico",
+      "matchCount": 102,
+      "totalGoals": 297,
+      "lateGoals": 81,
+      "extraTimeGoals": 7,
+      "lateGoalPct": 27.3,
+      "goalsPerMatch": 2.91,
+      "lateGoalsPerMatch": 0.79,
+      "buckets": {
+        "1-15": 38,
+        "16-30": 31,
+        "31-45+": 53,
+        "46-60": 49,
+        "61-74": 38,
+        "75+": 81,
+        "ET": 7
+      },
+      "topScorers": [
+        {
+          "player": "Kylian Mbappé",
+          "goals": 8,
+          "team": "France"
+        },
+        {
+          "player": "Lionel Messi",
+          "goals": 8,
+          "team": "Argentina"
+        },
+        {
+          "player": "Erling Haaland",
+          "goals": 7,
+          "team": "Norway"
+        },
+        {
+          "player": "Harry Kane",
+          "goals": 6,
+          "team": "England"
+        },
+        {
+          "player": "Jude Bellingham",
+          "goals": 6,
+          "team": "England"
+        },
+        {
+          "player": "Mikel Oyarzabal",
+          "goals": 5,
+          "team": "Spain"
+        },
+        {
+          "player": "Ousmane Dembélé",
+          "goals": 5,
+          "team": "France"
+        },
+        {
+          "player": "Ismaïla Sarr",
+          "goals": 4,
+          "team": "Senegal"
+        },
+        {
+          "player": "Julián Quiñones",
+          "goals": 4,
+          "team": "Mexico"
+        },
+        {
+          "player": "Vinícius Júnior",
+          "goals": 4,
+          "team": "Brazil"
+        }
+      ],
+      "lateGoalTeams": [
+        {
+          "team": "Argentina",
+          "lateGoals": 8
+        },
+        {
+          "team": "Belgium",
+          "lateGoals": 5
+        },
+        {
+          "team": "Canada",
+          "lateGoals": 5
+        },
+        {
+          "team": "Morocco",
+          "lateGoals": 5
+        },
+        {
+          "team": "Norway",
+          "lateGoals": 5
+        },
+        {
+          "team": "Austria",
+          "lateGoals": 3
+        },
+        {
+          "team": "England",
+          "lateGoals": 3
+        },
+        {
+          "team": "France",
+          "lateGoals": 3
+        },
+        {
+          "team": "Germany",
+          "lateGoals": 3
+        },
+        {
+          "team": "Senegal",
+          "lateGoals": 3
+        }
+      ]
+    },
+    "latePctDelta": 1.9,
+    "latePerMatchDelta": 0.15
+  },
+  "topScorersAllTime": [
+    {
+      "player": "Lionel Messi",
+      "goals": 21,
+      "lateGoals": 6,
+      "team": "Argentina",
+      "years": [
+        2006,
+        2014,
+        2018,
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Kylian Mbappé",
+      "goals": 20,
+      "lateGoals": 5,
+      "team": "France",
+      "years": [
+        2018,
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Miroslav Klose",
+      "goals": 16,
+      "lateGoals": 3,
+      "team": "Germany",
+      "years": [
+        2002,
+        2006,
+        2010,
+        2014
+      ]
+    },
+    {
+      "player": "not applicable Ronaldo",
+      "goals": 15,
+      "lateGoals": 3,
+      "team": "Brazil",
+      "years": [
+        1998,
+        2002,
+        2006
+      ]
+    },
+    {
+      "player": "Harry Kane",
+      "goals": 14,
+      "lateGoals": 3,
+      "team": "England",
+      "years": [
+        2018,
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Cristiano Ronaldo",
+      "goals": 11,
+      "lateGoals": 4,
+      "team": "Portugal",
+      "years": [
+        2006,
+        2010,
+        2014,
+        2018,
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Thomas Müller",
+      "goals": 10,
+      "lateGoals": 1,
+      "team": "Germany",
+      "years": [
+        2010,
+        2014
+      ]
+    },
+    {
+      "player": "Christian Vieri",
+      "goals": 9,
+      "lateGoals": 2,
+      "team": "Italy",
+      "years": [
+        1998,
+        2002
+      ]
+    },
+    {
+      "player": "David Villa",
+      "goals": 9,
+      "lateGoals": 1,
+      "team": "Spain",
+      "years": [
+        2006,
+        2010,
+        2014
+      ]
+    },
+    {
+      "player": "not applicable Neymar",
+      "goals": 8,
+      "lateGoals": 1,
+      "team": "Brazil",
+      "years": [
+        2014,
+        2018,
+        2022
+      ]
+    },
+    {
+      "player": "not applicable Rivaldo",
+      "goals": 8,
+      "lateGoals": 1,
+      "team": "Brazil",
+      "years": [
+        1998,
+        2002
+      ]
+    },
+    {
+      "player": "Romelu Lukaku",
+      "goals": 8,
+      "lateGoals": 4,
+      "team": "Belgium",
+      "years": [
+        2014,
+        2018,
+        2026
+      ]
+    },
+    {
+      "player": "Erling Haaland",
+      "goals": 7,
+      "lateGoals": 3,
+      "team": "Norway",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "player": "Jude Bellingham",
+      "goals": 7,
+      "lateGoals": 0,
+      "team": "England",
+      "years": [
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Luis Suárez",
+      "goals": 7,
+      "lateGoals": 2,
+      "team": "Uruguay",
+      "years": [
+        2010,
+        2014,
+        2018
+      ]
+    }
+  ],
+  "lateSpecialists": [
+    {
+      "player": "Lionel Messi",
+      "lateGoals": 6,
+      "goals": 21,
+      "team": "Argentina",
+      "years": [
+        2006,
+        2014,
+        2018,
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Kylian Mbappé",
+      "lateGoals": 5,
+      "goals": 20,
+      "team": "France",
+      "years": [
+        2018,
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Cristiano Ronaldo",
+      "lateGoals": 4,
+      "goals": 11,
+      "team": "Portugal",
+      "years": [
+        2006,
+        2010,
+        2014,
+        2018,
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Romelu Lukaku",
+      "lateGoals": 4,
+      "goals": 8,
+      "team": "Belgium",
+      "years": [
+        2014,
+        2018,
+        2026
+      ]
+    },
+    {
+      "player": "Miroslav Klose",
+      "lateGoals": 3,
+      "goals": 16,
+      "team": "Germany",
+      "years": [
+        2002,
+        2006,
+        2010,
+        2014
+      ]
+    },
+    {
+      "player": "not applicable Ronaldo",
+      "lateGoals": 3,
+      "goals": 15,
+      "team": "Brazil",
+      "years": [
+        1998,
+        2002,
+        2006
+      ]
+    },
+    {
+      "player": "Harry Kane",
+      "lateGoals": 3,
+      "goals": 14,
+      "team": "England",
+      "years": [
+        2018,
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Erling Haaland",
+      "lateGoals": 3,
+      "goals": 7,
+      "team": "Norway",
+      "years": [
+        2026
+      ]
+    },
+    {
+      "player": "James Rodríguez",
+      "lateGoals": 3,
+      "goals": 6,
+      "team": "Colombia",
+      "years": [
+        2014
+      ]
+    },
+    {
+      "player": "Luis Hernández",
+      "lateGoals": 3,
+      "goals": 4,
+      "team": "Mexico",
+      "years": [
+        1998
+      ]
+    },
+    {
+      "player": "Oliver Bierhoff",
+      "lateGoals": 3,
+      "goals": 4,
+      "team": "Germany",
+      "years": [
+        1998,
+        2002
+      ]
+    },
+    {
+      "player": "Fernando Torres",
+      "lateGoals": 3,
+      "goals": 4,
+      "team": "Spain",
+      "years": [
+        2006,
+        2014
+      ]
+    },
+    {
+      "player": "Rafael Leão",
+      "lateGoals": 3,
+      "goals": 3,
+      "team": "Portugal",
+      "years": [
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Enzo Fernández",
+      "lateGoals": 3,
+      "goals": 3,
+      "team": "Argentina",
+      "years": [
+        2022,
+        2026
+      ]
+    },
+    {
+      "player": "Christian Vieri",
+      "lateGoals": 2,
+      "goals": 9,
+      "team": "Italy",
+      "years": [
+        1998,
+        2002
+      ]
+    }
+  ]
+}
