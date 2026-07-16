@@ -74,7 +74,7 @@ export default function App() {
             stoppage time. The 30 minutes of extra time are not counted as late goals.
           </p>
           <label className="year-picker">
-            <span>Highlight tournament</span>
+            <span>Tournament</span>
             <select value={year} onChange={(e) => setYear(Number(e.target.value))}>
               {[...stats.years].reverse().map((y) => (
                 <option key={y} value={y}>
@@ -93,15 +93,11 @@ export default function App() {
           <TimingProfile tournaments={stats.tournaments} />
           <GoalsPerMatchChart tournaments={stats.tournaments} />
         </div>
+        <LateGoalsBrowser lateGoals={lateGoals} year={year} />
         <Leaders
           tournament={selected}
           allTime={stats.topScorersAllTime}
           lateSpecialists={stats.lateSpecialists}
-        />
-        <LateGoalsBrowser
-          lateGoals={lateGoals}
-          years={stats.years}
-          defaultYear={2026}
         />
       </main>
 

@@ -1,56 +1,59 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { Goal } from '../lib/stats'
 import { CountryFlag } from './CountryFlag'
 
+const PAGE_SIZE = 20
+
 type Props = {
   lateGoals: Goal[]
-  years: number[]
-  defaultYear: number
+  year: number
 }
 
-export function LateGoalsBrowser({ lateGoals, years, defaultYear }: Props) {
-  const [year, setYear] = useState<number | 'all'>(defaultYear)
+export function LateGoalsBrowser({ lateGoals, year }: Props) {
+  const [page, setPage] = useState(1)
 
   const filtered = useMemo(() => {
-    const list = year === 'all' ? lateGoals : lateGoals.filter((g) => g.year === year)
-    return [...list].sort(
-      (a, b) => b.year - a.year || b.minuteSort - a.minuteSort || a.player.localeCompare(b.player),
-    )
+    return lateGoals
+      .filter((g) => g.year === year)
+      .sort(
+        (a, b) =>
+          b.minuteSort - a.minuteSort || a.player.localeCompare(b.player),
+      )
   }, [lateGoals, year])
+
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE))
+
+  useEffect(() => {
+    setPage(1)
+  }, [year])
+
+  useEffect(() => {
+    if (page > totalPages) setPage(totalPages)
+  }, [page, totalPages])
+
+  const pageItems = useMemo(() => {
+    const start = (page - 1) * PAGE_SIZE
+    return filtered.slice(start, start + PAGE_SIZE)
+  }, [filtered, page])
+
+  const from = filtered.length === 0 ? 0 : (page - 1) * PAGE_SIZE + 1
+  const to = Math.min(page * PAGE_SIZE, filtered.length)
 
   return (
     <section className="panel" aria-labelledby="browser-title">
       <div className="browser-head">
         <div>
-          <h2 id="browser-title">Late-goal browser</h2>
+          <h2 id="browser-title">Late-goal browser · {year}</h2>
           <p className="section-desc">
             Regulation goals from 75′ onward (incl. stoppage). Extra time excluded.
           </p>
         </div>
-        <label className="year-filter">
-          <span>Year</span>
-          <select
-            value={year}
-            onChange={(e) => {
-              const v = e.target.value
-              setYear(v === 'all' ? 'all' : Number(v))
-            }}
-          >
-            <option value="all">All tournaments</option>
-            {[...years].reverse().map((y) => (
-              <option key={y} value={y}>
-                {y}
-              </option>
-            ))}
-          </select>
-        </label>
       </div>
 
       <div className="table-scroll">
         <table className="goal-table">
           <thead>
             <tr>
-              <th>Year</th>
               <th>Minute</th>
               <th>Player</th>
               <th>Team</th>
@@ -59,9 +62,8 @@ export function LateGoalsBrowser({ lateGoals, years, defaultYear }: Props) {
             </tr>
           </thead>
           <tbody>
-            {filtered.map((g, i) => (
-              <tr key={`${g.year}-${g.match}-${g.player}-${g.minuteLabel}-${i}`}>
-                <td>{g.year}</td>
+            {pageItems.map((g, i) => (
+              <tr key={`${g.match}-${g.player}-${g.minuteLabel}-${from + i}`}>
                 <td className="minute">
                   {g.minuteLabel}
                   {g.isPenalty ? ' (P)' : ''}
@@ -81,7 +83,35 @@ export function LateGoalsBrowser({ lateGoals, years, defaultYear }: Props) {
           </tbody>
         </table>
       </div>
-      <p className="table-meta">{filtered.length} late goals shown</p>
+
+      <div className="pager">
+        <p className="table-meta">
+          {filtered.length === 0
+            ? `No late goals in ${year}`
+            : `Showing ${from}–${to} of ${filtered.length} late goals`}
+        </p>
+        <div className="pager-controls">
+          <button
+            type="button"
+            className="pager-btn"
+            disabled={page <= 1}
+            onClick={() => setPage((p) => Math.max(1, p - 1))}
+          >
+            Previous
+          </button>
+          <span className="pager-status">
+            Page {page} / {totalPages}
+          </span>
+          <button
+            type="button"
+            className="pager-btn"
+            disabled={page >= totalPages}
+            onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+          >
+            Next
+          </button>
+        </div>
+      </div>
     </section>
   )
 }
