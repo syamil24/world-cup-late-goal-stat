@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T03:44:31.008Z",
+  "generatedAt": "2026-08-02T23:21:53.805Z",
   "years": [
     1998,
     2002,
@@ -813,26 +813,26 @@
     {
       "year": 2026,
       "host": "USA / Canada / Mexico",
-      "matchCount": 102,
-      "totalGoals": 297,
-      "lateGoals": 81,
-      "extraTimeGoals": 7,
+      "matchCount": 104,
+      "totalGoals": 308,
+      "lateGoals": 84,
+      "extraTimeGoals": 8,
       "lateGoalPct": 27.3,
-      "goalsPerMatch": 2.91,
-      "lateGoalsPerMatch": 0.79,
+      "goalsPerMatch": 2.96,
+      "lateGoalsPerMatch": 0.81,
       "buckets": {
-        "1-15": 38,
-        "16-30": 31,
-        "31-45+": 53,
-        "46-60": 49,
-        "61-74": 38,
-        "75+": 81,
-        "ET": 7
+        "1-15": 39,
+        "16-30": 32,
+        "31-45+": 55,
+        "46-60": 51,
+        "61-74": 39,
+        "75+": 84,
+        "ET": 8
       },
       "topScorers": [
         {
           "player": "Kylian Mbappé",
-          "goals": 8,
+          "goals": 10,
           "team": "France"
         },
         {
@@ -846,24 +846,24 @@
           "team": "Norway"
         },
         {
+          "player": "Jude Bellingham",
+          "goals": 7,
+          "team": "England"
+        },
+        {
           "player": "Harry Kane",
           "goals": 6,
           "team": "England"
         },
         {
-          "player": "Jude Bellingham",
+          "player": "Ousmane Dembélé",
           "goals": 6,
-          "team": "England"
+          "team": "France"
         },
         {
           "player": "Mikel Oyarzabal",
           "goals": 5,
           "team": "Spain"
-        },
-        {
-          "player": "Ousmane Dembélé",
-          "goals": 5,
-          "team": "France"
         },
         {
           "player": "Ismaïla Sarr",
@@ -895,6 +895,10 @@
           "lateGoals": 5
         },
         {
+          "team": "England",
+          "lateGoals": 5
+        },
+        {
           "team": "Morocco",
           "lateGoals": 5
         },
@@ -903,15 +907,11 @@
           "lateGoals": 5
         },
         {
-          "team": "Austria",
-          "lateGoals": 3
-        },
-        {
-          "team": "England",
-          "lateGoals": 3
-        },
-        {
           "team": "France",
+          "lateGoals": 4
+        },
+        {
+          "team": "Austria",
           "lateGoals": 3
         },
         {
@@ -931,26 +931,26 @@
     "year2026": {
       "year": 2026,
       "host": "USA / Canada / Mexico",
-      "matchCount": 102,
-      "totalGoals": 297,
-      "lateGoals": 81,
-      "extraTimeGoals": 7,
+      "matchCount": 104,
+      "totalGoals": 308,
+      "lateGoals": 84,
+      "extraTimeGoals": 8,
       "lateGoalPct": 27.3,
-      "goalsPerMatch": 2.91,
-      "lateGoalsPerMatch": 0.79,
+      "goalsPerMatch": 2.96,
+      "lateGoalsPerMatch": 0.81,
       "buckets": {
-        "1-15": 38,
-        "16-30": 31,
-        "31-45+": 53,
-        "46-60": 49,
-        "61-74": 38,
-        "75+": 81,
-        "ET": 7
+        "1-15": 39,
+        "16-30": 32,
+        "31-45+": 55,
+        "46-60": 51,
+        "61-74": 39,
+        "75+": 84,
+        "ET": 8
       },
       "topScorers": [
         {
           "player": "Kylian Mbappé",
-          "goals": 8,
+          "goals": 10,
           "team": "France"
         },
         {
@@ -964,24 +964,24 @@
           "team": "Norway"
         },
         {
+          "player": "Jude Bellingham",
+          "goals": 7,
+          "team": "England"
+        },
+        {
           "player": "Harry Kane",
           "goals": 6,
           "team": "England"
         },
         {
-          "player": "Jude Bellingham",
+          "player": "Ousmane Dembélé",
           "goals": 6,
-          "team": "England"
+          "team": "France"
         },
         {
           "player": "Mikel Oyarzabal",
           "goals": 5,
           "team": "Spain"
-        },
-        {
-          "player": "Ousmane Dembélé",
-          "goals": 5,
-          "team": "France"
         },
         {
           "player": "Ismaïla Sarr",
@@ -1013,6 +1013,10 @@
           "lateGoals": 5
         },
         {
+          "team": "England",
+          "lateGoals": 5
+        },
+        {
           "team": "Morocco",
           "lateGoals": 5
         },
@@ -1021,15 +1025,11 @@
           "lateGoals": 5
         },
         {
-          "team": "Austria",
-          "lateGoals": 3
-        },
-        {
-          "team": "England",
-          "lateGoals": 3
-        },
-        {
           "team": "France",
+          "lateGoals": 4
+        },
+        {
+          "team": "Austria",
           "lateGoals": 3
         },
         {
@@ -1043,9 +1043,20 @@
       ]
     },
     "latePctDelta": 1.9,
-    "latePerMatchDelta": 0.15
+    "latePerMatchDelta": 0.17
   },
   "topScorersAllTime": [
+    {
+      "player": "Kylian Mbappé",
+      "goals": 22,
+      "lateGoals": 5,
+      "team": "France",
+      "years": [
+        2018,
+        2022,
+        2026
+      ]
+    },
     {
       "player": "Lionel Messi",
       "goals": 21,
@@ -1054,17 +1065,6 @@
       "years": [
         2006,
         2014,
-        2018,
-        2022,
-        2026
-      ]
-    },
-    {
-      "player": "Kylian Mbappé",
-      "goals": 20,
-      "lateGoals": 5,
-      "team": "France",
-      "years": [
         2018,
         2022,
         2026
@@ -1150,6 +1150,16 @@
       ]
     },
     {
+      "player": "Jude Bellingham",
+      "goals": 8,
+      "lateGoals": 1,
+      "team": "England",
+      "years": [
+        2022,
+        2026
+      ]
+    },
+    {
       "player": "not applicable Neymar",
       "goals": 8,
       "lateGoals": 1,
@@ -1191,16 +1201,6 @@
       ]
     },
     {
-      "player": "Jude Bellingham",
-      "goals": 7,
-      "lateGoals": 0,
-      "team": "England",
-      "years": [
-        2022,
-        2026
-      ]
-    },
-    {
       "player": "Luis Suárez",
       "goals": 7,
       "lateGoals": 2,
@@ -1229,7 +1229,7 @@
     {
       "player": "Kylian Mbappé",
       "lateGoals": 5,
-      "goals": 20,
+      "goals": 22,
       "team": "France",
       "years": [
         2018,
